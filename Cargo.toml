@@ -1,0 +1,25 @@
+[package]
+name = "icnsup"
+version = "0.1.0"
+edition = "2018"
+
+authors = ["wyhaya <wyhaya@gmail.com>"]
+description = "Command line tool for quick creation of icns"
+homepage = "https://github.com/wyhaya/mei"
+repository = "https://github.com/wyhaya/mei.git"
+license = "MIT"
+readme = "README.md"
+
+keywords = [
+    "icns",
+    "icon"
+]
+
+[profile.release]
+lto = true
+codegen-units = 1
+
+[dependencies]
+clap = "2.33.3"
+icns = "0.3.1"
+image = "0.23.14"
