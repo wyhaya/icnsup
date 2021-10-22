@@ -1,7 +1,7 @@
 [package]
 name = "icnsup"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 
 authors = ["wyhaya <wyhaya@gmail.com>"]
 description = "Command line tool for quick creation of icns"
