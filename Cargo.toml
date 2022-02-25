@@ -18,6 +18,7 @@ keywords = [
 [profile.release]
 lto = true
 codegen-units = 1
+strip = "symbols"
 
 [dependencies]
 clap = "2.33.3"
