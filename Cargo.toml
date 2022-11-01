@@ -1,0 +1,24 @@
+[package]
+name = "icnsup"
+version = "0.2.0"
+edition = "2021"
+description = "Command line tool for quick creation of icns"
+homepage = "https://github.com/wyhaya/icnsup"
+repository = "https://github.com/wyhaya/icnsup.git"
+license = "MIT"
+readme = "README.md"
+
+keywords = [
+    "icns",
+    "icon"
+]
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = "symbols"
+
+[dependencies]
+clap = "2.33.3"
+icns = "0.3.1"
+image = "0.23.14"
