@@ -1,5 +1,5 @@
 
-# icnsup [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wyhaya/icnsup/Build?style=flat-square)](https://github.com/wyhaya/icnsup/actions) [![Crates.io](https://img.shields.io/crates/v/icnsup.svg?style=flat-square)](https://crates.io/crates/icnsup)
+# icnsup [![Crates.io](https://img.shields.io/crates/v/icnsup.svg?style=flat-square)](https://crates.io/crates/icnsup)
 
 Command line tool for quick creation of `icns` file
 
